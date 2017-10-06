@@ -20,6 +20,6 @@ from .views import GeneratePDF
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^pdf/$', GeneratePDF.as_view()),
+    url(r'^$', GeneratePDF.as_view()),
 
 ]
